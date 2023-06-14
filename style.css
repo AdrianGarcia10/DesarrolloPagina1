@@ -1,0 +1,119 @@
+/* estilo css (se puede poner cualquier nombre)*/
+/* para poder comentar es control+k+c y para descomentar es ctrl + k +u */
+
+ body{ /*se trae el nombre de lo que queres darle el estilo */
+    font-family: Arial, Helvetica, sans-serif; /*esto es para el tiopo de letra*/
+    margin:0% ;/*es el margen que le doy se lee en sentido del reloj top(arriba)left(izquierda)right(derecha)bottom(abajo)*/
+    padding: 0px; /*cantidad de espacio de los borde */
+    background-color: rgb(8, 75, 75); /*para el color de la pagina*/
+}
+h1{
+    margin-top: 10px;
+    color:aliceblue;
+    text-align: center;
+}
+h2{
+    margin-top: 10px;
+    color:aliceblue;
+    text-align: center;
+}
+header{
+    background-color: rgb(27, 188, 209);
+    color:rgb(233, 143, 25);
+    padding: 15px;
+    text-align: center;
+    margin-right: 0%;
+    margin-top: 5px;
+}
+nav{
+    background-color: rgb(126, 248, 110);
+    color: blue;
+    height: 60px;
+    display:flex; /*hace flexible a los hijos*/
+    justify-content: center;
+    align-items: center;
+    padding: 5 10px;
+    margin-top: 2%;
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: auto;
+    display: flex;
+    margin-right: 25px;
+
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 10px;
+    
+    
+}
+div{
+    align-items: center;
+}
+
+#content{ /*asi se llama a un id*/
+    padding: 30px;
+}
+
+.arcos-container{ /*asi se llama a una clase*/
+    display:block ;/*para q haga flexible a los hijos se usa flex*/
+    flex-wrap: wrap;
+    width:auto;/*para darle tamaño al contenedor*/
+}
+
+.arcos{
+    flex-basis: 25%;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 5px;
+    background-color: rgb(150, 224, 11);
+    box-shadow: 0 8px 4px rgba(red, rgba(182, 14, 112, 0.76), blue, alpha);
+}
+
+.arcos img{
+    width: 100%;
+    height: auto;
+}
+.arcos h3{
+    color: rgb(245, 102, 36);
+    font-size: 20px;
+    text-align: center;
+    margin: 1 15px;
+}
+.arcos p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    color:azure;
+}
+form{
+    color:aliceblue;
+    margin: 30px;
+}
+input{
+    background-color: bisque;
+    border-radius: 5px;
+    width: 100%;
+    padding: 7px;
+}
+
+button {
+    display: block;
+    background-color: rgb(230, 230, 230);
+    color: black;
+    padding: 8px 5px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s; /* Corrección: especificar la propiedad que se está animando */
+    cursor: pointer;
+    margin:2px 45%;
+  }
+  
+  button:hover {
+    background-color: #2db4e9cc; /* Color de fondo al pasar el cursor */
+  }
+  
